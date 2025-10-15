@@ -1,0 +1,22 @@
+.small-btn {
+  font-size: 10px;
+  color: black;
+  background-color: lightblue;
+}
+
+body {
+  background-color: lightblue;
+}
+
+p {
+  color: white;
+  background-color: teal;
+}
+
+body {
+  min-width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */
