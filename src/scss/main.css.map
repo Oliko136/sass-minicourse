@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["--examples--/lesson-03-nesting/_ampersand.scss"],"names":[],"mappings":"AAAA;EAEQ;EACA;EACA;EAGJ;;AAEA;EAEI;;;AAIR;EACI;EACA;;AAEA;EACI;EACA;;AAGJ;EACI;;;AAIR;EACI;;AAEA;EACI","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["--examples--/lesson-04-extend/_extend.scss"],"names":[],"mappings":"AAqEA;EACI;EACA;EACA;EAEA;EACA;EAEA;EACA;EACA;EACA;EACA;EAEA;EACA;;;AAGJ;EAEI,kBAzFM;;;AA4FV;EAEI,kBA7FM;;;AAgGV;EAEI,kBAjGG","file":"main.css"}

@@ -3,14 +3,36 @@
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/sass.svg" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SASS Tutorial template</title>
   </head>
   <body>
-    <button class="button" type="button">
-      <svg class="button-icon"></svg>
-      <span class="button-label">Замовити</span>
-    </button>
+    <div class="notification-primary">
+      <i class="notification-icon fa fa-diamond" width="20" height="20"></i>
+      <p class="notification-text">Primary</p>
+      <button type="button" class="notification-btn">
+        <i class="notification-btn-icon fa fa-close"></i>
+      </button>
+    </div>
+
+    <div class="notification-success">
+      <i class="notification-icon fa fa-check" width="20" height="20"></i>
+      <p class="notification-text">Primary</p>
+      <button type="button" class="notification-btn">
+        <i class="notification-btn-icon fa fa-close"></i>
+      </button>
+    </div>
+
+    <div class="notification-info">
+      <i class="notification-icon fa fa-info" width="20" height="20"></i>
+      <p class="notification-text">Primary</p>
+      <button type="button" class="notification-btn">
+        <i class="notification-btn-icon fa fa-close" width="20" height="20"></i>
+      </button>
+    </div>
 
     <script type="module" src="./src/js/main.js"></script>
   </body>

@@ -1,28 +1,26 @@
-.button {
-  background-color: teal;
-  background-position: center;
-  background-repeat: no-repeat;
-  color: red;
-}
-.button:hover, .button:focus {
-  color: blue;
-}
-
-.button-icon {
-  width: 20px;
-  height: 20px;
-}
-.button-icon:hover {
-  width: 50px;
-  height: 50px;
-}
-.button:hover .button-icon {
-  font-size: 20px;
-}
-
-.button-label {
+.notification-info, .notification-success, .notification-primary {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  width: 480px;
+  padding: 20px;
+  font-family: Montserrat;
+  color: #fafafb;
   font-size: 16px;
+  line-height: 20px; /* 125% */
+  letter-spacing: 0.5px;
+  background-color: #92929d;
+  border-radius: 6px;
 }
-.button:hover .button-label {
-  font-size: 20px;
+
+.notification-primary {
+  background-color: #f07f2e;
+}
+
+.notification-success {
+  background-color: #82c43c;
+}
+
+.notification-info {
+  background-color: #4e75ff;
 }/*# sourceMappingURL=main.css.map */
