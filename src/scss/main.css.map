@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["--examples--/lesson-03-variables/_button.scss","--examples--/lesson-03-variables/_scopes.scss","--examples--/lesson-03-variables/_base.scss"],"names":[],"mappings":"AAMA;EACI,WANY;EAOZ,OANY;EAOZ,kBANc;;;ACDlB;EAII,kBAHgB;;;AAMpB;EACI,OANkB;EAOlB,kBAXY;;;ACAhB;EACI;EACA;EAEA;EACA;EACA","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["--examples--/lesson-03-nesting/_ampersand.scss"],"names":[],"mappings":"AAAA;EAEQ;EACA;EACA;EAGJ;;AAEA;EAEI;;;AAIR;EACI;EACA;;AAEA;EACI;EACA;;AAGJ;EACI;;;AAIR;EACI;;AAEA;EACI","file":"main.css"}
