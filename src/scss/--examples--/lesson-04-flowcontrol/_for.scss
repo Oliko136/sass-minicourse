@@ -1,0 +1,8 @@
+// @for at-rule with calculations
+$base-weight: 400;
+
+@for $i from 0 through 3 {
+    .fw-#{$base-weight+($i * 100)} {
+        font-weight: $base-weight + ($i * 100);
+    }
+}
