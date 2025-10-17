@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["--examples--/lesson-04-extend/_extend.scss"],"names":[],"mappings":"AAqEA;EACI;EACA;EACA;EAEA;EACA;EAEA;EACA;EACA;EACA;EACA;EAEA;EACA;;;AAGJ;EAEI,kBAzFM;;;AA4FV;EAEI,kBA7FM;;;AAgGV;EAEI,kBAjGG","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["--examples--/lesson-04-mixins/_mixins.scss"],"names":[],"mappings":"AAuGA;EACI;EACA;;AAPA;EAUI;EACA","file":"main.css"}
