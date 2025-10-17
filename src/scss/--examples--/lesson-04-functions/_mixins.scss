@@ -1,0 +1,33 @@
+@use "sass:math";
+@use "decimal" as d;
+@use "functions" as f;
+
+@mixin fonts($fs, $fw: null, $lh: null, $ls: null, $align: null) {
+    font-size: $fs;
+
+    @if $fw {
+        font-weight: $fw;
+    }
+
+    @if $lh {
+        @if $lh ==normal {
+            line-height: normal;
+        } @else {
+            $lh: calc(f.strip-unit($lh) / f.strip-unit($fs));
+            line-height: d.decimal-round($lh, 2);
+        }
+    }
+
+    @if $ls {
+        @if $ls ==normal {
+            letter-spacing: normal;
+        } @else {
+            $ls: calc(f.strip-unit($ls) / f.strip-unit($fs));
+            letter-spacing: #{d.decimal-round($ls, 2)}em;
+        }
+    }
+
+    @if $align {
+        text-align: $align;
+    }
+}

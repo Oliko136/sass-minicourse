@@ -1,0 +1,10 @@
+@use "mixins" as m;
+@use "functions" as f;
+
+.title {
+    @include m.fonts(20px, 600, 28px, 0.5px, center);
+}
+
+.container {
+    width: f.rem(100px);
+}

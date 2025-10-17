@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":["--examples--/lesson-04-flowcontrol/_for.scss"],"names":[],"mappings":"AAII;EACI;;;AADJ;EACI;;;AADJ;EACI;;;AADJ;EACI","file":"main.css"}
+{"version":3,"sourceRoot":"","sources":["--examples--/lesson-04-functions/_examples.scss","--examples--/lesson-04-functions/_mixins.scss"],"names":[],"mappings":"AAGA;ECEI,WDDiB;ECIb,aDJmB;ECYf;EASA;EAKJ,YD1BqC;;;AAG7C;EACI","file":"main.css"}
