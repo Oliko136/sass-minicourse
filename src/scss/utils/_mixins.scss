@@ -1,3 +1,14 @@
+@use "sass:map";
+@use "./variables" as v;
+
+$breakpoints: (
+    "sm": v.$sm,
+    "md": v.$md,
+    "lg": v.$lg,
+    "xl": v.$xl,
+    "xxl": v.$xxl,
+) !default;
+
 // Міксин для керування властивостями флекс контейнера 
 // Використовується у файлі _flex.scss
 @mixin flex-center($is-column: false) {
@@ -38,5 +49,25 @@
         }
     } @else {
         @error "Incompatible units. Check mixin params";
+    }
+}
+
+@mixin mq($bp: sm, $type: min, $is-retina: false) {
+    @if map.has-key($breakpoints, $bp) {
+        $width: map.get($breakpoints, $bp);
+
+        @if $type == max {
+            $width: $width - 0.2px;
+        }
+
+        @media only screen and (#{$type}-width: $width) {
+            @if $is-retina {
+                @media (min-device-pixel-ratio: 2), (min-resolution: 192dpi), (min-resolution: 2dppx) {
+                    @content;
+                }
+            } @else {
+                @content;
+            }
+        }
     }
 }
