@@ -1,0 +1,43 @@
+@use "./variables" as v;
+
+// Перелік кольорів
+$colors: (
+    // 'gray100': v.$gray100,
+    // 'gray200': v.$gray200,
+    // 'gray300': v.$gray300,
+    // 'gray400': v.$gray400,
+    // 'gray500': v.$gray500,
+    // 'gray600': v.$gray600,
+    // 'gray700': v.$gray700,
+    // 'gray800': v.$gray800,
+    // 'gray900': v.$gray900,
+    'primary': v.$primary,
+    'success': v.$success,
+    'info': v.$info,
+    'warning': v.$warning,
+    'danger': v.$danger,
+    'light': v.$light,
+    'dark': v.$dark,
+    'white': v.$white,
+    'black': v.$black
+);
+
+// Перебираємо мапу кольорів
+@each $name, $color in $colors {
+    // колір тексту
+    .color-#{$name} {
+        color: $color;
+    }
+
+    // колір фону
+    .bg-#{$name} {
+        background-color: $color;
+    }
+
+    // заливка `svg`
+    .fill-#{$name} {
+        svg {
+            color: $color;
+        }
+    }
+}
